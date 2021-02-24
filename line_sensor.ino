@@ -65,7 +65,7 @@ void loop() {
 
   double filter [12];
   filter[i] = sensorValueCom;
-  for (t; t < 12; t++)
+  for (int t; t < 12; t++)
   {
     sumOf12 += filter[t];
   }
